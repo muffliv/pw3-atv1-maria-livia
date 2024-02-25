@@ -1,0 +1,38 @@
+[
+    {
+      "titulo": "A Metamorfose",
+      "autor": "Franz Kafka",
+      "imagem": "https://i.pinimg.com/originals/74/29/2a/74292a833e57b498eec475f192bd3382.jpg",
+      "descricao": "Dom Quixote é uma obra-prima da literatura espanhola...",
+      "avaliacao": "4.5/5.0"
+    },
+    {
+      "titulo": "Noites Brancas",
+      "autor": "Fiodor Dostoievsk",
+      "imagem": "https://m.media-amazon.com/images/I/71F-Uf20+UL._AC_UF1000,1000_QL80_.jpg",
+      "descricao": "Orgulho e Preconceito é uma das obras mais famosas de Jane Austen...",
+      "avaliacao": "4.7/5.0"
+    },
+    {
+        "titulo": "Misto Quente",
+        "autor": "Charles Bukowski",
+        "imagem": "https://icultgen.files.wordpress.com/2010/08/resenha_bukowski_mistoquente1.png",
+        "descricao": "Orgulho e Preconceito é uma das obras mais famosas de Jane Austen...",
+        "avaliacao": "4.7/5.0"
+    },
+    {
+        "titulo": "Noites Brancas",
+        "autor": "Fiodor Dostoievsk",
+        "imagem": "https://m.media-amazon.com/images/I/71F-Uf20+UL._AC_UF1000,1000_QL80_.jpg",
+        "descricao": "Orgulho e Preconceito é uma das obras mais famosas de Jane Austen...",
+        "avaliacao": "4.7/5.0"
+    },
+    {
+        "titulo": "Noites Brancas",
+        "autor": "Fiodor Dostoievsk",
+        "imagem": "https://m.media-amazon.com/images/I/71F-Uf20+UL._AC_UF1000,1000_QL80_.jpg",
+        "descricao": "Orgulho e Preconceito é uma das obras mais famosas de Jane Austen...",
+        "avaliacao": "4.7/5.0"
+    }
+
+  ]
