@@ -1,16 +1,23 @@
+.home{
+  background-color: #fff;
+  min-height: 100vh;
+}
+
 .livro-card {
-  border: 1px solid #942e2e;
-  border-radius: 8px;
+  /* border: 1px solid #000000; */
+  border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   width: 250px;
+  margin-top: 5%;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .livro-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(8, 2, 100, 0.733);
   transform: scale(1.05);
-  background-color: aquamarine;
+  /* background-color: rgba(253, 255, 127, 0.301); */
 }
 
 .livro-card-header {
@@ -47,16 +54,58 @@
 }
 
 .livro-list-container {
-  display: flex; /* Torna os itens flexíveis */
-  flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha quando não couberem mais no contêiner */
-  gap: 35px; /* Espaçamento entre os itens */
-  justify-content: center; 
+  display: flex; 
+  justify-content: center;
+  gap: 35px;
+  
 }
 
 .header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 30px;
-  background-color: cadetblue;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgb(16, 28, 39);
+}
+
+.livro-modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.livro-modal__conteudo{
+  display: flex;
+  gap: 35px;
+}
+
+.livro-modal__esquerdo{
+  text-align: center;
+}
+
+.livro-modal__esquerdo > img{
+  width: 400px;
+}
+
+.livro-modal__btn{
+  cursor: pointer;
+}
+
+.efeito{
+  filter: brightness(50%);
+  pointer-events: none;
+}
+
+.close{
+  display: none;
+}
+
+.open{
+  display: block;
 }
